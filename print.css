@@ -1,0 +1,9 @@
+/* print.css */
+@media print {
+  nav, footer {
+    display: none;
+  }
+  body {
+    font-size: 12pt;
+  }
+}
